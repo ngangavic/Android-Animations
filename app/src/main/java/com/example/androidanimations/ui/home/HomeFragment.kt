@@ -33,7 +33,7 @@ class HomeFragment : Fragment() {
         })
         imageViewWifiAnim=root.findViewById(R.id.imageViewWifiAnim)
         imageViewWifiAnim.apply {
-            setBackgroundResource(R.drawable.wifi_animation)
+            setBackgroundResource(R.drawable.battery_animation)
             wifiAnimation = background as AnimationDrawable
         }
 
