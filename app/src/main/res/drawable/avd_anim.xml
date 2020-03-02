@@ -31,7 +31,8 @@
                 android:pathData="M 20 2 L 4 2 C 2.9 2 2.01 2.9 2.01 4 L 2 22 L 6 18 L 20 18 C 21.1 18 22 17.1 22 16 L 22 4 C 22 2.9 21.1 2 20 2 Z M 18 14 L 6 14 L 6 12 L 18 12 L 18 14 Z M 18 11 L 6 11 L 6 9 L 18 9 L 18 11 Z M 18 8 L 6 8 L 6 6 L 18 6 L 18 8 Z"
                 android:fillColor="#000000"
                 android:strokeColor="#ffffff"
-                android:strokeWidth="2"
+                android:strokeAlpha="0"
+                android:strokeWidth="1"
                 android:trimPathEnd="0"/>
         </vector>
     </aapt:attr>
@@ -64,7 +65,7 @@
                 android:propertyName="trimPathEnd"
                 android:startOffset="200"
                 android:duration="100"
-                android:valueFrom="0"
+                android:valueFrom="1"
                 android:valueTo="1"
                 android:valueType="floatType"
                 android:interpolator="@android:interpolator/fast_out_slow_in"/>
