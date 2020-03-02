@@ -37,7 +37,11 @@ class HomeFragment : Fragment() {
             wifiAnimation = background as AnimationDrawable
         }
 
-        imageViewWifiAnim.setOnClickListener { wifiAnimation.start() }
         return root
+    }
+
+    override fun onStart() {
+        super.onStart()
+        wifiAnimation.start()
     }
 }
