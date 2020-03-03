@@ -6,3 +6,5 @@ Sites used:-
 2. https://developer.android.com/training/animation
 3. https://shapeshifter.design/
 4. https://material.io/resources/icons/?style=baseline
+
+Editing application: InkScape
